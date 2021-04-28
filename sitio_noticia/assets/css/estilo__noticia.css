@@ -1,0 +1,68 @@
+body {
+    background-image: url("../img/fondo_Noticia.jpg");
+}
+
+h1 {
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    height: 220px;
+}
+
+p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border-color: moccasin;
+}
+
+ bajada__noticia {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid=black;
+}
+
+blockquote {
+    font-size: 19px;
+    border-left: darkgrey 5px solid;
+    padding-left: 20px;
+}
+
+.test{
+    font-size:50px;
+    text-transform: uppercase;
+    
+}
+
+
+.espaciado{
+    padding: 10%;
+}
+#container{
+  background: rgba(204, 204, 204, 0.5);
+    width: 100%;
+    padding: 20px;
+   border-color: slategray;
+    border-radius: 3px;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-bottom: 0%;
+
+}
+
+
+  #column {
+    float: left;
+    width: 44.44%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  inframe{
+      padding-left: 60px;
+  }
